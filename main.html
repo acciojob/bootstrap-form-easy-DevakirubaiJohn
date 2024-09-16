@@ -6,15 +6,20 @@
 <body>
     <form>
         <div class="form-group">
-            <label for="first-name-input">First Name</label>
+            <label for="first-name-input" class="form-label">First Name</label>
             <input type="text" class="form-control" id="first-name-input" required>
             <div class="invalid-feedback">Please enter your first name.</div>
         </div>
-        <!-- Add similar blocks for Last Name, Email, College Name, Roll No -->
+        <div class="form-group">
+            <label for="last-name-input" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last-name-input" required>
+            <div class="invalid-feedback">Please enter your last name.</div>
+        </div>
+        <!-- Add similar blocks for Email, College Name, Roll No -->
         <!-- ... -->
         <div class="form-group">
-            <label for="graduation-year-input">Graduation Year</label>
-            <select class="form-control" id="graduation-year-input" required>
+            <label for="grad-year-select" class="form-label">Graduation Year</label>
+            <select class="form-control" id="grad-year-select" required>
                 <option>2020</option>
                 <option>2021</option>
                 <option>2022</option>
